@@ -129,3 +129,10 @@ We manage to get an rmse of 0.10 and a R2 score of 0.92.
 These rmse and R2 scores are calculated on a 20% set I extracted from the train set given by kaggle. By testing our best predictions (eg: Log transform + OneHot encoding + Cross validation + Normalization) on the kaggle platform we get the following result : 
 
 ![](https://i.imgur.com/E6Rblva.png)
+
+Finally to have a small final boost we can retrain our regression algorithm but this time on the all train dataset eg without splitting 20% for a validation set.
+
+Final submission : 
+
+![](https://i.imgur.com/Sq6G0ok.png)
+
